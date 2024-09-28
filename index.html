@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by saad</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="order-now-button">
+        <button onclick="document.querySelector('#order-now-section').scrollIntoView({ behavior: 'smooth' })">Order Now</button>
+    </div>
+    <div class="logo">
+        <img src="https://i.postimg.cc/2yPcTs42/20240412-001208.png" alt="Logo">
+    </div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#footer">Contact</a></li> <!-- Added Contact link -->
+        </ul>
+        <img src="https://i.postimg.cc/0NqpYYdK/image.png" alt="Menu Icon" class="menu-icon" onclick="toggleMenu(this)">
+    </nav>
+</header>
+
+
+<div class="menu-background"></div>
+
+<section id="home" class="home-section">
+    <div class="content">
+        <img src="https://i.postimg.cc/90yfJ58n/Black-White-Minimalist-Letter-AG-Logo-1.png" alt="Myself Image" class="myself-image">
+
+        <p><span class="greeting">Hi, I'm</span> <span class="learn-more"><a href="#about">Learn More</a></span></p>
+        <p><span class="expertise">I have expertise in Photoshop, Illustrator, Canva,<br> Powerpoint, Figma, Adobe XD, and many more <br> applications.</span></p>
+        <p><span class="name">Muhammad Saad</span></p>
+        <p><span class="social-media">Find me on social media</span></p>
+
+        <div class="social-icons">
+            <a href="link3.html" class="icon"><img src="https://i.postimg.cc/B676BJPF/image.png" alt="Icon 3"></a>
+            <a href="link4.html" class="icon"><img src="https://i.postimg.cc/d3FWnKMq/image.png" alt="Icon 4"></a>
+            <a href="link1.html" class="icon"><img src="https://i.postimg.cc/Bt9JmbSj/image.png" alt="Icon 1"></a>
+            <a href="link2.html" class="icon"><img src="https://i.postimg.cc/yNV8qDF9/image.png" alt="Icon 2"></a>
+        </div>
+
+        <button class="start-conversation" onclick="redirectToPage()">Start Conversation</button>
+    </div>
+</section>
+
+<div class="circle-overlay"></div>
+<div class="circle-overlay-2"></div>
+  
+<section id="about" class="about-section">
+    <div class="content">
+        <h2>ABOUT ME</h2>
+        <p>I am Muhammad Saad, As a seasoned graphics designer, web developer and Excel expert with over 5 years of experience, I've honed my skills in a range of industry-leading applications, from PhotoShop and Illustrator to Canva, PowerPoint, Figma, Adobe XD, Wordpress,  Excel, and more. With a passion for creativity and a keen eye for detail, I craft Logos, Banner/Poster, Flyer/Brochure, Thumbnail, Ebook, Cover design, PowerPoint Presentation, CV/Resume, Product/label design, visual graphics, etc that grab attention, and digital designs that leave a lasting impression. I bring my expertise to the table to deliver top-notch results. As a web developer, I'm dedicated to building responsive, user-friendly websites that meet your needs, and I'm always up for a challenge. And when it comes to Excel, I'm all about unlocking the power of data to help you make informed decisions. Let's collaborate and bring your vision to life - I can't wait to see what we can create together!</p>
+      
+           <h3>Experience</h3>
+        <ul class="experience-list">
+            <li>5+ years experience in Graphics design, Web development, and Excel.</li>
+            <li>Got Freelancing Certificate from DigiSkills.</li>
+            <li>Got Graphics Designing, Web development, and Excel Certificate from Coursera.</li>
+            <li>500+ Satisfied Clients</li>
+        </ul>
+    </div>
+</section>
+  
+<section id="services" class="services-section">
+    <h2>SERVICES</h2>
+    <div class="service-cards">
+        <div class="service-card">
+            <h3>Web Development</h3>
+            <p>
+                <li>Figma Website design</li>
+                <li>Adobe Xd Web design</li>
+                <li>Invision Web design</li>
+                <li>UI/UX web design</li>
+                <li>Figma to HTML, CSS, JS</li>
+                <li>XD to HTML, CSS, JS</li>
+                <li>PSD to HTML, CSS, JS</li>
+                <li>WordPress web design</li>
+                <li>Webflow web design</li>
+                <li>Wix web design</li>
+            </p>
+        </div>
+        <div class="service-card">
+            <h3>Graphic Design</h3>
+            <p>
+                <li>Logo design</li>
+                <li>Banner/Poster</li>
+                <li>Brochure/Flyer</li>
+                <li>Thumbnails</li>
+                <li>Ebook, Handbook</li>
+                <li>Ebook cover design</li>
+                <li>Booklet</li>
+                <li>Pdf Page design</li>
+                <li>PowerPoint Presentation</li>
+                <li>CV/Resume</li>
+                <li>Product/Label design</li>
+                <li>Card design</li>
+            </p>
+        </div>
+        <div class="service-card">
+            <h3>Excel Services</h3>
+            <p>
+                <li>Data Entry</li>
+                <li>Data Management</li>
+                <li>Data Analysis</li>
+                <li>Data Visualization</li>
+                <li>Budgeting</li>
+                <li>Charting</li>
+                <li>Graphing</li>
+                <li>Spreadsheets</li>
+                <li>Tables</li>
+                <li>Accounting</li>
+                <li>Financial planning</li>
+                <li>Inventory management</li>
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<section id="portfolio" class="portfolio-section">
+    <div class="content">
+        <h2>PORTFOLIO</h2>
+        <p>Click on below images to view portfolio on other page.</p>
+        <div class="portfolio-images">
+            <a href="link-to-page-1.html" class="portfolio-image image-1"></a>
+            <a href="link-to-page-2.html" class="portfolio-image image-2"></a>
+            <a href="link-to-page-3.html" class="portfolio-image image-3"></a>
+        </div>
+        <div class="arrow-container">
+            <div class="arrow left-arrow"></div>
+            <div class="arrow right-arrow"></div>
+        </div>
+    </div>
+</section>
+
+
+<section id="order-now-section" class="order-now-section">
+    <div class="content">
+        <h2>ORDER NOW</h2>
+        <p>For inquiries and ORDERS, you can contact me on WhatsApp:</p>
+        <a href="your-link-here" class="chat-whatsapp-button">Chat on WhatsApp</a>
+        <p class="order-on-fiverr">You can also ORDER on Fiverr.</p>
+        <p class="for-graphics-design">For Graphics Design</p>
+        <p class="for-web-development">For Web Development</p>
+        <p class="for-excel-services">For Excel Services</p>
+        <div class="click-here-buttons">
+            <button class="click-here">Click Here</button>
+            <button class="click-here">Click Here</button>
+            <button class="click-here">Click Here</button>
+        </div>
+    </div>
+</section>
+
+<section id="any-questions-section" class="any-questions-section">
+    <form>
+        <h2>Any Questions?</h2>
+        <p>If you have any question or confusion, Look below.</p>
+        <div class="input-group">
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+        </div>
+        <textarea placeholder="Your Question or Confusion"></textarea>
+        <button type="submit">Submit</button>
+  
+        <img src="https://i.postimg.cc/DySBkpjn/Graphics-Design-8.png" alt="Graphic Design" class="image1">
+        <img src="https://i.postimg.cc/DySBkpjn/Graphics-Design-8.png" alt="Graphic Design" class="image2">
+    </form>
+</section>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#order-now-section">Order Now</a></li>
+                <li><a href="#any-questions-section">Any Questions?</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Services</h3>
+            <ul>
+                <li><a href="#services">Graphics Design</a></li>
+                <li><a href="#services">Web Development</a></li>
+                <li><a href="#services">Excel Services</a></li>
+            </ul>
+        </div>
+        <div class="footer-column contact-us">
+            <h3>Contact Us</h3>
+            <ul>
+                <li>Phone: +923275946947</li>
+                <li>------------------------------</li>
+                <li>WhatsApp: +923275946947</li>
+                <li>------------------------------</li>
+                <li>Email: lsgtv321@gmail.com</li>
+            </ul>
+            <img src="https://i.postimg.cc/2yPcTs42/20240412-001208.png" alt="Footer Image" class="footer-image">
+        </div>
+    </div>
+</footer>
+
+<script>
+    function toggleMenu() {
+        const navLinks = document.querySelector('.nav-links');
+        const menuIcon = document.querySelector('.menu-icon');
+        const menuBackground = document.querySelector('.menu-background');
+
+        navLinks.classList.toggle('active');
+        menuBackground.classList.toggle('active');
+
+        // Change the menu icon image source to the alternative image if it's currently the original image, otherwise revert it
+        if (menuIcon.src === 'https://i.postimg.cc/0NqpYYdK/image.png') {
+            menuIcon.src = 'https://i.postimg.cc/X7BQV9fG/image.png';
+        } else {
+            menuIcon.src = 'https://i.postimg.cc/0NqpYYdK/image.png';
+        }
+    }
+
+    function scrollImages(direction) {
+        const container = document.querySelector('.portfolio-images');
+        const scrollStep = 300; // Adjust scroll step as needed
+        const scrollDistance = direction === 'left' ? -scrollStep : scrollStep;
+        container.scrollBy({
+            top: 0,
+            left: scrollDistance,
+            behavior: 'smooth'
+        });
+    }
+
+    document.querySelector('.left-arrow').addEventListener('click', function() {
+        scrollImages('left');
+    });
+
+    document.querySelector('.right-arrow').addEventListener('click', function() {
+        scrollImages('right');
+    });
+</script>
+
+
+
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
